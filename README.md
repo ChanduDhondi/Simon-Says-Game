@@ -4,4 +4,4 @@ Developed my first game using HTML, CSS and JavaScript, where I've created level
 
 ### Here's the Demo
 
-<img src="" alt="video" align="center" controls/>
+<img src="https://github.com/ChanduDhondi/Simon-Says-Game/blob/main/video/video.gif" alt="video" align="center" controls/>
