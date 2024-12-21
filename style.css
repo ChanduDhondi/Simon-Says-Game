@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(48, 25, 52, .9)
+}
+
+h2{
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 21rem;
+    width: 21rem;
+    border: .7rem solid rgba(0,0,0,.6);
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 15%;
+    left: 39%;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn{
+    margin: 6px;
+    padding: 10px;
+    height: 9rem;
+    width: 9rem;    
+}
+
+.green{
+    background-color:#3edd4b;
+    border-radius: 10rem 0 0 0;
+}
+
+.red{
+    background-color: #dd4b3e;
+    border-radius: 0 10rem 0 0;
+}
+
+.yellow{
+    background-color: #ffea37;
+    border-radius: 0 0 0 10rem;
+}
+
+.blue{
+    background-color: #277aff;
+    border-radius: 0 0 10rem 0;
+}
+
+.name{
+    color: white;
+    font-size: 1.2rem;
+    text-wrap: wrap;
+    text-align: center;
+    background-color: black;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+    overflow-wrap: break-word;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+.name p{
+    transform: translateY(50%);
+    text-shadow: white 0px 0 5px;
+}
+
+.flash{
+    background-color: white;
+}
+
